@@ -46,7 +46,7 @@
 
 - If the blocks reach the top of the screen and no more moves can be made, the game is over;
   
-- The message GAME OVER will appear on the screen;
+- The message "GAME OVER" will appear on the screen;
 
 - Press any key to reset and start a new game;
 
