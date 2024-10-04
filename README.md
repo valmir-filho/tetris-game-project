@@ -26,34 +26,30 @@
 
 ## Game Instructions:
 
-- When you run the game, a random word will be chosen from a predefined list. The number of letters in the word will be displayed as underscores (`_`);
+- When you run the game, the Tetris screen will open, and the game will begin;
 
-- Enter a single letter in the input box provided;
+- If the game ends (the blocks reach the top), press any key to restart;
+
+- Press the left arrow (←) key to move the current piece to the left;
+
+- Press the right arrow (→) key to move the current piece to the right;
   
-- Click the "Guess" button to submit your guess;
+- Press the down arrow (↓) key to speed up the fall of the current piece. This also increases your score by 1 point per move down;
   
-- You can only guess one letter at a time. Make sure it's a single alphabetical character;
+- Press the up arrow (↑) key to rotate the current piece;
+
+- Every time you move a piece down using the down arrow, your score increases by 1 point;
   
-- If you guess a letter that you’ve already guessed, a message will inform you that you have already made that guess;
+- The score will be displayed at the top right of the screen under score;
 
-- If the guessed letter is in the word, it will replace the corresponding underscores with the letter;
+- The next section at the right of the screen shows the next piece that will appear once the current piece is placed;
+
+- If the blocks reach the top of the screen and no more moves can be made, the game is over;
   
-- If the guessed letter is not in the word, your attempt count will decrease by one;
+- The message GAME OVER will appear on the screen;
 
-- The game will display how many attempts you have left. You start with a set number of attempts (usually 6);
+- Press any key to reset and start a new game;
 
-- You win if you guess all the letters in the word before running out of attempts;
-
-- A congratulatory message will appear when you successfully guess the word;
-
-- If you run out of attempts before guessing the word, a message will inform you that you lost, and it will reveal the correct word;
-
-- Once the game is over (either win or lose), you can close the window to exit;
-
-- Try to guess vowels first (like A, E, I, O, U) as they are common in many words;
-  
-- Pay attention to the letters you've already guessed to avoid repeating them;
-  
-- Think about common prefixes or suffixes in words to help narrow down your guesses.
+- The goal of the game is to create complete horizontal lines with the falling Tetris blocks. Each time a line is completed, it will disappear, and you'll score points.
 
 ### Used IDE: Visual Studio Code.
